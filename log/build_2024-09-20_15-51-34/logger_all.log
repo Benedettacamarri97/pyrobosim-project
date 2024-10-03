@@ -1,0 +1,46 @@
+[0.800s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pyrobosim_ros']
+[0.800s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pyrobosim_ros'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff3af32fcd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff3af32f730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff3af32f730>>)
+[1.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.993s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) ignored
+[1.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.996s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'pyrobosim_ros' in --packages-select
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.113s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/user97/pyrobosim_ws/install
+[2.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.496s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.504s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.636s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.642s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.642s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/local_setup.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/_local_setup_util_ps1.py'
+[2.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/setup.ps1'
+[2.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/local_setup.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/_local_setup_util_sh.py'
+[2.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/setup.sh'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/local_setup.bash'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/setup.bash'
+[2.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/local_setup.zsh'
+[2.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user97/pyrobosim_ws/src/pyrobosim/pyrobosim/install/setup.zsh'
